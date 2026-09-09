@@ -122,16 +122,7 @@ Firmware Upload → ThingsBoard → MQTT Notification → ESP32
 - **Shared I²C bus** — reduces GPIO usage and simplifies wiring/expansion across HMC5883L, MPU6500, and INA226.
 - **Sensor placement** — HMC5883L is mounted away from the motor and electromagnet to avoid magnetic interference; MPU6500 sits mid-jib for accurate structural readings; INA226 sits close to the motor power input for accurate current sensing.
 
-## Future Improvements
 
-- [ ] Wind speed sensor (RS485)
-- [ ] Load cell
-- [ ] Limit switches
-- [ ] Industrial environmental sensor
-- [ ] Emergency stop monitoring
-- [ ] Predictive maintenance algorithms
-- [ ] Alarm management
-- [ ] Digital twin visualization
 
 ## Repository Structure
 
